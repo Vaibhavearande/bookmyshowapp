@@ -16,8 +16,14 @@ body {
   margin: 0;
 }
 
-.movie-container {
+.ticket-container {
   margin: 20px 0;
+}
+
+.button {
+    color: red;
+    font-size: 10px;
+    font-family: "Roboto";
 }
 
 .movie-container select {
@@ -38,7 +44,7 @@ body {
 }
 
 .seat {
-  background-color: #444451;
+  background-color: #ffff;
   height: 26px;
   width: 32px;
   margin: 3px;
@@ -52,7 +58,7 @@ body {
 }
 
 .seat.sold {
-  background-color: #fff;
+  background-color: #444451;
 }
 
 .seat:nth-of-type(2) {
